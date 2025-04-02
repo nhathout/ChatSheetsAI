@@ -30,6 +30,12 @@ If there are any differences between the CSV columns and the already made table 
 
 ---
 
+## Step 5
+
+![step5](img/step5.png)
+
+---
+
 ### Quick Start
 1. clone the repo
 
