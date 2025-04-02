@@ -1,6 +1,6 @@
-# ChatSheetAI
+# ChatSheetsAI
 
-Create a spreadsheet-like application (similar to Excel or Google Sheets) but entirely driven by a chat interface. 
+Create a spreadsheet-like application (similar to Excel or Google Sheets) but entirely driven by a chat interface.
 
 ---
 
@@ -8,17 +8,21 @@ Create a spreadsheet-like application (similar to Excel or Google Sheets) but en
 
 ![step1](img/step1.png)
 
+Manually load a CSV into SQLite and perform basic queries.
+
 ---
 
 ## Step 2
 
 ![step2](img/step2.png)
 
+Infer schema from a CSV and create tables automatically.
+
 ---
 
 ## Step 3
 
-If there are any differences between the CSV columns and the already made table columns:<br>
+If there are any differences between the CSV columns and the existing table columns, prompt the user to overwrite, rename, or skip.
 
 ![step3](img/step3.png)
 
@@ -28,11 +32,15 @@ If there are any differences between the CSV columns and the already made table 
 
 ![step4](img/step4.png)
 
+Create a simple CLI that allows basic chat-like interaction: load CSV, list tables, run SQL queries, etc.
+
 ---
 
 ## Step 5
 
 ![step5](img/step5.png)
+
+Integrate OpenAI to convert natural language queries into SQL commands.
 
 ---
 
