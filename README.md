@@ -10,10 +10,16 @@ Create a spreadsheet-like application (similar to Excel or Google Sheets) but en
 
 ---
 
+## Step 2
+
+![step2](img/step2.png)
+
+---
+
 ### Quick Start
 1. clone the repo
 
 2. run ```pip install -r requirements.txt```
 
-3. run the step1 script:<br>
+3. run the (for example) step1 script:<br>
 ```python step1.py --csv_file example_data.csv --db_name data.db```
