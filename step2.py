@@ -63,7 +63,7 @@ def main():
     parser = argparse.ArgumentParser(description="Step 2: Dynamically create tables in SQLite by inferring schema from CSV.")
     parser.add_argument("--csv_file", required=True, help="Path to the input CSV file.")
     parser.add_argument("--db_name", required=True, help="Name of the SQLite database file.")
-    parser.add_argument("--table_name", default="my_inferred_table", help="Name of the table to create in SQLite.")
+    parser.add_argument("--table_name", default="my_table", help="Name of the table to create in SQLite.")
     args = parser.parse_args()
 
     # 1. Create table dynamically
