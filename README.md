@@ -18,7 +18,7 @@ Create a spreadsheet-like application (similar to Excel or Google Sheets) but en
 
 ## Step 3
 
-If there are any differences between the CSV columns and the already made table columns: 
+If there are any differences between the CSV columns and the already made table columns:<br>
 ![step3](img/step3.png)
 
 ---
