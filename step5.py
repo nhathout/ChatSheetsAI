@@ -192,7 +192,7 @@ def main():
     # 2) Connect to DB
     conn = connect_to_db(args.db_name)
 
-    print("\nWelcome to the ChatSheetAI CLI (latest OpenAI library)!")
+    print("\nWelcome to the ChatSheetsAI CLI (latest OpenAI library)!")
     print("Commands:")
     print("  ask <natural language>  - Let AI generate SQL and execute it.")
     print("  query <SQL statement>   - Execute a direct SQL statement yourself.")
