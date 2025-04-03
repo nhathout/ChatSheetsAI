@@ -17,8 +17,6 @@ def set_openai_api_key():
     key = os.getenv("OPENAI_API_KEY")
     if not key:
         print("OpenAI API key not found in environment. Please set OPENAI_API_KEY or hardcode it for testing.")
-        # If you want quick tests without environment variables:
-        # key = "sk-..."
     
     if key:
         client = OpenAI(api_key=key)
@@ -101,7 +99,7 @@ def ask_llm_for_sql(schema_str, user_query):
 
     try:
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",  # or "gpt-4o" if you have GPT-4 API access
+            model="gpt-3.5-turbo",  
             messages=[
                 {"role": "developer", "content": developer_content},
                 {"role": "user", "content": user_content},
